@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:spinnerDropDownItemStyle">@style/mission_spinner_style</item>
+        <item name="android:spinnerItemStyle">@style/mission_spinner_style</item>
+        <item name="android:dropDownSelector">@color/colorAccent</item>
+        <item name="android:dropDownSpinnerStyle">@style/mission_spinner_style</item>
+        <item name="android:spinnerStyle">@style/mission_spinner_style</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:spinnerDropDownItemStyle">@style/mission_spinner_style</item>
+        <item name="android:spinnerItemStyle">@style/mission_spinner_style</item>
+        <item name="android:dropDownSelector">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="mission_spinner_style">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:itemBackground">@color/white</item>
+    </style>
+
+</resources>

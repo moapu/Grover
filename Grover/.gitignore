@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/.idea/*
+/.idea/libraries
+/.idea/modules.xml
+/.idea/caches
+/.idea/workspace.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/grover_gps/src/debug/res/values/google_maps_api
+gradle.properties
+local.properties
+*.ser

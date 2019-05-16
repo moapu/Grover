@@ -1,0 +1,127 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Grover</string>
+
+    <!-- Sensor Names -->
+    <string name="accelerometer">Accelerometer</string>
+    <string name="altitude" tools:ignore="ExtraTranslation">Altitude</string>
+    <string name="ambient_light">Ambient Light</string>
+    <string name="barometer">Barometer</string>
+    <string name="barometric_pressure">Barometric Pressure</string>
+    <string name="bearing">Bearing</string>
+    <string name="device_battery_level">Device Battery Level</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="gps">GPS</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="magnetometer">Magnetometer</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Relative Humidity</string>
+    <string name="speed">Speed</string>
+    <string name="fingerprint">Fingerprint Authentication</string>
+    <string name="auth">Authenticate with fingerprint</string>
+
+
+    <!--Navigation Pane Titles-->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_diagnostics">Diagnostics</string>
+    <string name="title_mission">Mission</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Page Headers -->
+    <string name="welcome">Welcome to the Rover Dashboard!</string>
+    <string name="mission_control">Mission Control</string>
+    <string name="current_mission">Current Mission</string>
+    <string name="diagnostics_sensor_data">Sensor Data</string>
+
+    <!-- Mission Capture Options: Displayed on Dashboard -->
+    <string name="start">Start Mission Data Capture</string>
+    <string name="stop">Stop Mission Data Capture</string>
+
+    <!-- Formatted Strings -->
+    <string name="accel_values_initial">X: \nY: \nZ: </string>
+    <string name="gyro_values_initial">X: \nY: \nZ: </string>
+    <string name="gps_values_initial">Lat:\nLng:</string>
+    <string name="magn_values_initial">X: \nY: \nZ: μT</string>
+
+
+    <string name="accel_values" formatted="true">X: %f\nY: %f\nZ: %f m/s^2</string>
+    <string name="amb_light_value" formatted="true">%f lx</string>
+    <string name="barometer_value" formatted="true">%f hPa</string>
+    <string name="battery_level" formatted="true">Battery Level: %d%%</string>
+    <string name="flashlight_value" formatted="true">%f (On/Off)</string>
+    <string name="humidity_value">%f%%</string>
+    <string name="temperature_value">%f F</string>
+
+
+    <string name="spinner_climate_prompt">Select a climate type</string>
+
+    <string name="flashlight_on">On</string>
+    <string name="flashlight_off">Off</string>
+
+    <string name="gps_values" formatted="true">Lat: %f\nLng: %f</string>
+    <string name="gyro_values" formatted="true">X: %f\nY: %f\nZ: %f rad/s</string>
+    <string name="degrees_celsius" formatted="true">%f C</string>
+    <string name="magn_value" formatted="true">X: %f\nY: %f\nZ: %f μT</string>
+    <string name="notifications">Notifications?</string>
+    <string name="johndoe123_gmail_com">johndoe123@gmail.com</string>
+    <string name="email">Email</string>
+    <string name="sms_text_message">SMS Text Message</string>
+    <string name="notification_frequency">Notification Frequency</string>
+    <string name="preferred_temp_unit">Default Unit for Temperature Data</string>
+    <string name="save">Save</string>
+    <string name="speed_value" formatted="true">%f kmph</string>
+    <string name="altitude_value" formatted="true">%f m</string>
+    <string name="bearing_value" formatted="true">%f degrees</string>
+    <string name="wifiText">Wifi Connected:&#160;</string>
+    <string name="cellText">Mobile Connected:&#160;</string>
+    <string name="speedText">Mobile Speed: %s</string>
+    <string name="instructions"> Place your fingertip on the Home button to verify your identity</string>
+
+    <string name="climate_temp_low" formatted="true">Lower Temperature Threshold: %.2f</string>
+    <string name="climate_temp_high" formatted="true">Upper Temperature Threshold: %.2f</string>
+    <string name="climate_humid_low" formatted="true">Lower Humidity Threshold: %.2f</string>
+    <string name="climate_humid_high" formatted="true">Upper Humidity Threshold: %.2f</string>
+    <string name="climate_baro_low" formatted="true">Lower Barometric Pressure Threshold: %.2f</string>
+    <string name="climate_baro_high" formatted="true">Upper Barometric Pressure Threshold: %.2f</string>
+    <string name="accelText">Bluetooth Connection:&#160;</string>
+    <string name="rover_login">Rover Login</string>
+    <string name="send_email">Send Email</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="frequency_of_data_saving">Frequency of data saving</string>
+    <string name="timer_set_to_save_every_x_seconds">Timer is set to save data\nevery %d
+        seconds.\nModify in the Settings pane,\nif need be!</string>
+    <string name="mission_commander_name" tools:ignore="ExtraTranslation">Mission Commander Name</string>
+    <string name="retrieve_mission_data">Retrieve Mission Data</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="content_description_placeholder_for_image_capture">Placeholder for image capture</string>
+    <string name="climate">Climate</string>
+
+    <string-array name="climate_types">
+        <item>Chaparral</item>
+        <item>Desert</item>
+        <item>Grassland</item>
+        <item>TemperateDeciduousForest</item>
+        <item>TemperateRainForest</item>
+        <item>TropicalRainForest</item>
+        <item>Taiga</item>
+        <item>Tundra</item>
+    </string-array>
+
+    <string-array name="timer_intervals">
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+    </string-array>
+
+    <string-array name="notification_frequency">
+        <item>Hourly</item>
+        <item>Every 6 hours</item>
+        <item>Every 12 hours</item>
+    </string-array>
+
+    <string-array name="temperature_units">
+        <item>Fahrenheit (F)</item>
+        <item>Celsius (C)</item>
+        <item>Kelvin (K)</item>
+    </string-array>
+
+</resources>

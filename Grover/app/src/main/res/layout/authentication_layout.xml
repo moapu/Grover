@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AuthenticationLauncher">
+
+    <TextView
+        android:id="@+id/authentication_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="@string/rover_login"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/lockImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:contentDescription="Lock image"
+        android:src="@drawable/ic_lock_black_24dp" />
+
+    <TextView
+        android:id="@+id/authentication_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Please touch the fingerprint sensor to unlock access to the Rover interface."
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/accessAppIfNoFingerprintSensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:onClick="enterAppIfNoFingerprintSensor"
+        android:text="(For developers) Use this to access app if\ndevice does not have a fingerprint sensor" />
+
+</LinearLayout>
