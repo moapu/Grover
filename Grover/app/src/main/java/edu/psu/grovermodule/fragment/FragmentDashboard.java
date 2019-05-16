@@ -32,7 +32,6 @@ import edu.psu.grovermodule.handler.SensorManagerHandler;
 Project: PSA Grover Vehicle
 Feature: Dashboard fragment for showing the system check statuses
 Course: IST 440w Section 1 Fall 2019
-Author(s): Joseph Sliwka, Abu Chowdhury, Jennifer A'Harrah
 Date Developed: 2/1/19
 Last Date Changed: 4/14/19
 Rev: 11

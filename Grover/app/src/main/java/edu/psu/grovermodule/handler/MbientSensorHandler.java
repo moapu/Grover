@@ -19,7 +19,6 @@ Course: IST 440W Section 1 Fall 2019
 Date Developed: 3/1/19
 Date Last Changed: 3/12/2019
 Rev: 1
-Author(s): Mostafa Apu, Christopher Valko
 */
 public class MbientSensorHandler extends AsyncTask<MetaWearBoard, String, Float> {
     /**

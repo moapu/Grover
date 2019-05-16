@@ -53,7 +53,6 @@ import static android.content.Context.CAMERA_SERVICE;
 Project: PSA Grover Vehicle
 Feature: Diagnostics Fragment for starting and stopping data capture, and viewing sensory data
 Course: IST 440w Section 1 Fall 2019
-Author(s): Jennifer A'Harrah, Chris Valko, Mostafa Apu, Nathan Hull, Conghao Lu
 Date Developed: 2/1/19
 Last Date Changed: 4/14/19
 Rev: 11

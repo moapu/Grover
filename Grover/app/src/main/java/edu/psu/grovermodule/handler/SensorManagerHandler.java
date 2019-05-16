@@ -15,7 +15,6 @@ Course: IST 440W Section 1 Fall 2019
 Date Developed: 3/11/19
 Date Last Changed: 3/12/2019
 Rev: 1
-Author(s): Mostafa Apu
 */
 public class SensorManagerHandler {
     private SensorManager sensorManager;

@@ -41,7 +41,6 @@ Course: IST 440w Section 1 Fall 2019
 Date Developed: 2/1/19
 Last Date Changed: 3/11/2019
 Rev: 2
-Author(s): Jennifer A'Harrah, Dan Hardcastle
 */
 
 public class FragmentSettings extends Fragment {

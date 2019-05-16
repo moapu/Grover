@@ -3,7 +3,6 @@ package edu.psu.grovermodule.pojo;
 /*
 Project: PSA Grover Vehicle
 Feature: SMS POJO Class
-Author: Daniel Hardcastle
 Date Created: 3/16/2019
 Revision: 1
  */

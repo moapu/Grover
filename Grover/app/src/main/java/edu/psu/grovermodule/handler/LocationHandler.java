@@ -23,7 +23,6 @@ Course: IST 440w Section 1 Fall 2019
 Date Developed: 3/14/19
 Last Date Changed: 4/20/2019
 Rev: 1
-Author(s): Mostafa Apu
 */
 
 public class LocationHandler {

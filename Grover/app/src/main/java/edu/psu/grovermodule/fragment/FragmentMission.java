@@ -46,7 +46,6 @@ import static android.app.Activity.RESULT_OK;
 Project: PSA Grover Vehicle
 Feature: Mission Fragment for viewing and setting the mission template
 Course: IST 440w Section 1 Fall 2019
-Author: Jennifer A'Harrah, Nathan Hull, Michael Murray, Conghao Lu
 Date Developed: 2/18/19
 Last Date Changed: 4/14/19
 Rev: 11

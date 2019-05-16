@@ -9,7 +9,6 @@ import edu.psu.grovermodule.MissionTemplateWebService;
 Project: PSA Grover Vehicle
 Feature: Mission Climate Templates
 Course: IST 440w Section 1 Fall 2019
-Author: Nathan Hull, Jennifer A'Harrah
 Date Developed: 3/09/19
 Last Date Changed: 3/13/19
 Rev: 4

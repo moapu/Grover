@@ -4,8 +4,7 @@ package edu.psu.grovermodule.pojo;
  * Project: PSA Grover Vehicle
  * Feature: Mission Climate Templates
  * Course: IST 440w Section 1 Fall 2019
- * Author: Conghao Lu
- * Date Developed: 3/16/19
+ * * Date Developed: 3/16/19
  * Last Date Changed: 3/16/19
  * Rev: 4
  */

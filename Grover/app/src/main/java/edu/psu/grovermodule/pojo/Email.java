@@ -3,7 +3,6 @@ package edu.psu.grovermodule.pojo;
 /*
 Project: PSA Grover Vehicle
 Feature: Email POJO Class
-Author: Daniel Hardcastle, Jennifer A'Harrah
 Date Created: 3/13/2019
 Revision: 2
  */
